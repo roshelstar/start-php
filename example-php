@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PHP Date and Time Example</title>
+  </head>
+  <body>
+    <?php
+      echo "The current date and time is: " . date("Y-m-d H:i:s");
+    ?>
+  </body>
+</html>
+
+
+This code uses the date() function in PHP to get the current date and time in the format of YYYY-MM-DD HH:MM:SS. The echo statement is used to display the date and time on the webpage. You can customize the date and time format by changing the argument of the date() function.
